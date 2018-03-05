@@ -45,7 +45,7 @@ body { /* body text */
     color: #212125; /* body text color */
     height: 100vh;
     width: 100vw;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 a { /* link text */
@@ -66,17 +66,19 @@ p {
 }
 
 #hello-text { /* first section header text */
-    margin-left: -2vw;
+    margin-left: -4vw;
     font-size: 20vmin; /* 'hello' text text size */
     line-height: 20vmin;
-    font-family: 'Pacifico', serif; /* 'hello' text font family */
-    color: #239D60; /* 'hello' text text color */
+    font-family: 'Arimo', serif; /* 'hello' text font family */
+    color: #fff0b3;
+    /*color: #239D60; /* 'hello' text text color */
 }
 
 section > h2 { /* section header text */
-    font-size: 2em; /* section header font size */
+    font-size: 1.5em; /* section header font size */
     line-height: 1.6em; 
-    font-family: 'Pacifico', serif; /* section header font family */
+    font-weight: lighter;
+    font-family: 'Arimo', serif; /* section header font family */
 }
 
 
@@ -90,12 +92,14 @@ section > h2 { /* section header text */
 aside > a { 
     border: none;
     text-decoration: none;
-    color: #F7F39A; /* icon color */
+    color: #595959;
+   /* color: #F7F39A; /* icon color */
 }
 
 aside > a:visited {
     text-decoration: none;
-    color: #F7F39A; /* visited icon color */
+
+    /*color: #F7F39A; /* visited icon color */
 }
 
 
@@ -142,6 +146,7 @@ section.page {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 section.page.text {
@@ -194,7 +199,7 @@ section.page > .image-box > img {
     border-radius: 50%;
     height: 35vmin;
     shape-outside: circle(50%);
-    width: 35vmin;
+    width: auto;
 }
 
 .image-shadow {
@@ -290,7 +295,7 @@ section.page > .image-box > img {
 /* fullscreen background image */
 .image-background {
     background-color: #DD7F77;
-    background-image: url(../images/stock-images/coffee-and-notebook.jpg);
+    background-image: url(../images/myImages/IMG_1289.jpg);
     background-position: 50% 25%;
     background-repeat: no-repeat;
     z-index: -2;
