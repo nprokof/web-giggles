@@ -317,6 +317,7 @@ section.page > .image-box > img {
         -webkit-background-size: cover auto;
         background-position: 50% 25%;
         background-size: cover;
+        
     }
 }
 
